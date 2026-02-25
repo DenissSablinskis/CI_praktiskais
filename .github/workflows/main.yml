@@ -1,0 +1,16 @@
+name: Python CI pārbaude
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: action/setup-python@v4
+        with:
+          python-version: '3.14.2'
+
+      - name: Palaist testus
+        run: python -m unittest discover .
