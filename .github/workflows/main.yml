@@ -1,4 +1,4 @@
-name: Python CI pārbaude test changes
+name: Python CI pārbaude
 
 on: [push]
 
