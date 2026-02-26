@@ -9,7 +9,7 @@ class TestKalkulators(unittest.TestCase):
         self.assertEqual(saskaitit(10, 20), 30)
     
     def test_saskaitit_2_3(self):
-        self.assertEqual(saskaitit(2, 3), 4)
+        self.assertEqual(saskaitit(2, 3), 5)
 
     def test_saskaitit_8_10(self):
         self.assertEqual(saskaitit(8, 10), 18)
