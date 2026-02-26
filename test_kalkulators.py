@@ -11,5 +11,8 @@ class TestKalkulators(unittest.TestCase):
     def test_saskaitit_2_3(self):
         self.assertEqual(saskaitit(2, 3), 5)
 
+    def test_saskaitit_8_10(self):
+        self.assertEqual(saskaitit(8, 10), 18)
+
 if __name__ == '__main__':
     unittest.main()
